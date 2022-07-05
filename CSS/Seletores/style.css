@@ -5,3 +5,19 @@ li > a{
 h1 + h4{
     border: 2px dotted blue;
 }
+
+a[href="/rec"]{
+    color: orangered;
+}
+
+li:nth-of-type(2){
+    color: brown;
+}
+
+div{
+    border: 3px solid black;
+}
+
+div ul{
+    border: inherit;
+}
