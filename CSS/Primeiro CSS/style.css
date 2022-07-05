@@ -1,0 +1,28 @@
+h1{
+    border: 2px solid green;
+}
+
+body{
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2019/03/20190312102710.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.moon{
+    color: aquamarine;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.big_text{
+    font-size: 40px;
+}
+
+#Io_text{
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li{
+    color: chocolate;
+}
