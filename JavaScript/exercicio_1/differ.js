@@ -1,0 +1,7 @@
+let older_name = prompt("Digite o nome da pessoa mais velha: ")
+let older_age = prompt("Digite a idade da pessoas mais velha: ")
+let younger_name = prompt("Digite o nome da pessoa mais nova: ")
+let younger_age = prompt("Digite a idade da pessoas mais nova: ")
+alert("Nome da pessoa mais velha: " + older_name + "\n Idade da pessoa mais velha: " + older_age)
+alert("Nome da pessoa mais nova: " + younger_name + "\n Idade da pessoa mais nova: " + younger_age)
+alert("Difença de idades = " + (older_age - younger_age))
