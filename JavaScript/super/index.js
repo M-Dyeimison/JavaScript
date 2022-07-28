@@ -14,13 +14,19 @@ class Spaceship{
 }
 
 class TransportSpaceship extends Spaceship {
-    speedUp(){
-         console.log("Naves de transporte só aumentam a velocidade em 1km/s")
-         this.currentVelocity += 1
+    constructor(name, maxCrew, maxRecommendedVelocity, maxLoadWeight) {
+        super(name, maxCrew, maxRecommendedVelocity)
+        this.maxLoadWeight = maxLoadWeight
+    }
+
+    speedUp(acceleration){
+        acceleration /= 2
+        console.log("Incrementando a velocidade em " + acceleration + "km/s")
+        super.speedUp(acceleration)
     }
 }
 
-let transportSpaceship = new TransportSpaceship("Transportadora", 4, 200)
-transportSpaceship.speedUp(130)
-
+let transportSpaceship = new TransportSpaceship("Transportadora", 4, 100, 400)
 console.log(transportSpaceship)
+
+transportSpaceship.speedUp(210)
